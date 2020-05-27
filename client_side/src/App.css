@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Montserrat:wght@200;300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+.brand-logo, a {
+  /* font-family: 'Acme', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  color: black!important;
+  padding-left: 10px;
+}
+.brand-logo {
+  padding-left: 10px!important;
+  font-family: 'Bebas Neue', cursive!important;
+}
+
+nav {
+ background-color: white!important;
+}
+.nav-user-name{
+  cursor: default;
+}
+.nav-user-name:hover{
+  background-color: white;
+}
+
+.my-card{
+  margin-top: 30px;
+}
+.auth-card {
+  padding:20px;
+  text-align: center;
+  max-width: 400px;
+  color: black;
+  margin: 10px auto;
+}
+
+/* auto puts the box centre aligned */
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #4dd0e1!important;
+  box-shadow: 0 1px 0 0 #4dd0e1!important;
+}
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid #4dd0e1!important;
+  box-shadow: 0 1px 0 0 #4dd0e1!important;
+}
+
+/* PROFILE PAGE CSS */
+
+.profile-wrap{
+  max-width: 550px;
+  margin:0px auto;
+}
+
+.upp-profile-wrapper{
+  display:flex;
+  justify-content: space-around;
+  margin:18px 0px;
+  border-bottom: 1px solid grey;
+}
+
+.profile-stats{
+  display:flex;
+  justify-content: space-around;
+  width:"108%";
+}
+.profile-stats h6{
+  margin:5px;
+}
+
+.profile-pic-img{
+  width:160px;
+  height:160px;
+  border-radius:80px;
+  margin:20px;
+}
+
+.update-pic{
+  width:160px;
+  height:160px;
+  margin:20px 20px 24px 20px;
+}
+.gallery{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.gallery-img {
+  width:25%;
+  margin:5px 5px 5px 5px ;
+}
+
+/* HOME PAGE CSS */
+
+/* .home{
+  
+} */
+
+.home-card{
+  max-width: 500px;
+  height:max-content;
+  margin:26px auto;
+  padding:10px
+}
+
+/* NEW POST PAGE CSS */
+
+.input-filled{
+  margin:10px auto;
+  max-width: 500px;
+  padding:20px;
+  text-align: center;
+}
+
+/* SIGN UP PAGE CSS */
+
+#toast-container {
+  top:30px;
+  right:20px!important;
+  left:auto
+}
+
+/* Icons */
+
+.material-icons:hover{
+  cursor: pointer;
+}
+
+/* Nav Modal */
+.collection-item{
+  width:100%;
+}
